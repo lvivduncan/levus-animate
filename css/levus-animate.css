@@ -1,0 +1,15 @@
+.from-left {
+  transform: translateX(-100vw);
+}
+
+.from-bottom {
+  transform: translateY(100vh);
+}
+
+.from-right {
+  transform: translateX(100vw);
+}
+
+.from-top {
+  transform: translateY(-100vh);
+}
