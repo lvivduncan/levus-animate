@@ -175,3 +175,38 @@
     transform: rotateY(0);
   }
 }
+
+/**/
+.rotate-x {
+  -webkit-transition: rotateX 2.5s;
+  transition: rotateX 2.5s;
+  -webkit-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+}
+
+.rotate-x.show {
+  transform: rotateX(0);
+  animation: rotate-x 5s forwards;
+}
+
+@-webkit-keyframes rotate-x {
+  0% {
+    -webkit-transform: rotateX(90deg);
+  }
+
+  50%,
+  100% {
+    -webkit-transform: rotateX(0);
+  }
+}
+
+@keyframes rotate-x {
+  0% {
+    transform: rotateX(90deg);
+  }
+
+  50%,
+  100% {
+    transform: rotateX(0);
+  }
+}
