@@ -5,4 +5,15 @@
 
 [DEMO](https://lvivduncan.github.io/levus-animate/)
 
-example: ```<div class="levus-animate from-top">from top</div>```
+Приклад: ```<div class="levus-animate from-top">from top</div>```
+
+Доступні варіанти:
+
+* ```<div class="levus-animate from-left">from left</div>```
+* ```<div class="levus-animate from-bottom">from bottom</div>```
+* ```<div class="levus-animate from-right">from right</div>```
+* ```<div class="levus-animate from-top">from top</div>```
+* ```<div class="levus-animate rotate-y">rotate-y</div>```
+* ```<div class="levus-animate rotate-x">rotate-x</div>```
+* ```<div class="levus-animate scale">scale</div>```
+* ```<div class="levus-animate opacity">opacity</div>```
